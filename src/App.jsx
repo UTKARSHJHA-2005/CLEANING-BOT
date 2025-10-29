@@ -7,7 +7,7 @@ import { FaApple, FaPlay } from "react-icons/fa";
 import video1 from "../public/videos/1000012165.mp4";
 import video2 from "../public/videos/Mop.mp4";
 import video3 from "../public/videos/1000012284.mp4";
-import { Cpu, Droplets, Map} from "lucide-react";
+import { Cpu, Droplets, Map } from "lucide-react";
 import "./App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -138,7 +138,7 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
             <a href="https://drive.google.com/file/d/1z8jXGQasEEnKiJLbuVaJKrucvd6D01wY/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-             className="inline-block px-8 py-4 border-2 border-cyan-500/50 rounded-full font-bold text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
+              className="inline-block px-8 py-4 border-2 border-cyan-500/50 rounded-full font-bold text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
               View Specifications
             </a>
           </div>
@@ -196,8 +196,10 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
-                  <video className="absolute inset-0 w-full h-full object-cover scale-110" src={video4} autoPlay
-                    loop muted playsInline />
+                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay
+                    loop muted playsInline >
+                    <source src={video4} type="video/mp4" />
+                  </video>
                 </div>
               </div>
             </div>
@@ -239,8 +241,9 @@ export default function App() {
                   </p>
                   {/* Video */}
                   <div className="relative aspect-video w-full rounded-2xl overflow-hidden mt-4">
-                    <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125"
-                      src={feature.video}/>
+                    <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125">
+                      <source src={feature.video} type="video/mp4" />
+                    </video>
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
                   </div>
                 </div>
@@ -312,7 +315,7 @@ export default function App() {
                   <div className="relative w-full max-w-xl">
                     <div className="relative overflow-hidden mb-40 rounded-3xl border-2 border-cyan-500/30 shadow-2xl shadow-cyan-500/20 group">
                       <img src={map} alt="Home mapping visualization"
-                       className="w-full h-full object-cover rounded-3xl transform group-hover:scale-105 transition-transform duration-700"/>
+                        className="w-full h-full object-cover rounded-3xl transform group-hover:scale-105 transition-transform duration-700" />
                       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-cyan-400 to-transparent animate-pulse"></div>
                       <div className="absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-cyan-400/60 rounded-tl-lg"></div>
                       <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-cyan-400/60 rounded-tr-lg"></div>
@@ -358,7 +361,7 @@ export default function App() {
             Join thousands of satisfied users who have upgraded to intelligent autonomous cleaning.
           </p>
           <button onClick={() => setOpen(true)} data-aos="fade-up-left"
-          className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white text-lg shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105 transition-all duration-300">
+            className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white text-lg shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105 transition-all duration-300">
             <span className="flex items-center gap-2">
               Order Now
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -379,17 +382,17 @@ export default function App() {
                 <div>
                   <label className="block text-gray-300 text-sm mb-1">Name</label>
                   <input type="text" placeholder="Enter your name"
-                   className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" required/>
+                    className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" required />
                 </div>
                 <div>
                   <label className="block text-gray-300 text-sm mb-1">Email</label>
                   <input type="email" placeholder="Enter your email" className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400"
-                   required/>
+                    required />
                 </div>
                 <div>
                   <label className="block text-gray-300 text-sm mb-1">Address</label>
                   <input type="text" placeholder="Enter your address" className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400"
-                   required/>
+                    required />
                 </div>
                 <div>
                   <label className="block text-gray-300 text-sm mb-1">Description</label>
@@ -397,7 +400,7 @@ export default function App() {
                 </div>
                 <div>
                   <label className="block text-gray-300 text-sm mb-1">Date</label>
-                  <input type="date" value={today} className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" readOnly/>
+                  <input type="date" value={today} className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" readOnly />
                 </div>
                 <button type="submit" className="w-full mt-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white shadow-lg hover:shadow-cyan-500/50 hover:scale-[1.02] transition-all duration-300">
                   Submit Order
@@ -423,7 +426,7 @@ export default function App() {
               Next-generation autonomous cleaning robotics powered by artificial intelligence.
             </p>
             <div className="flex gap-3">
-              <input type="email" placeholder="Join us for Robotics News" className="flex-1 px-4 py-2 bg-slate-900 border border-slate-800 rounded-lg text-sm outline-none focus:border-cyan-500/50 transition-colors"/>
+              <input type="email" placeholder="Join us for Robotics News" className="flex-1 px-4 py-2 bg-slate-900 border border-slate-800 rounded-lg text-sm outline-none focus:border-cyan-500/50 transition-colors" />
               <button className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-cyan-500/50 transition-all">
                 Join
               </button>
