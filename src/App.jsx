@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight, Zap, Battery, Volume2, Calendar, Shield, Radio, Eye } from 'lucide-react';
 import icon from "./assets/icon.png"
-import video4 from "./videos/Robo.mp4"
+import video4 from "../public/videos/Robo.mp4"
 import map from "../src/assets/Map.png"
 import { FaApple, FaPlay } from "react-icons/fa";
-import video1 from "./videos/1000012165.mp4";
-import video2 from "./videos/Mop.mp4";
-import video3 from "./videos/1000012284.mp4";
-import { Mail, Cpu, Droplets, Cog, Map, ChevronDown, Sparkles, ArrowRight } from "lucide-react";
+import video1 from "../public/videos/1000012165.mp4";
+import video2 from "../public/videos/Mop.mp4";
+import video3 from "../public/videos/1000012284.mp4";
+import { Cpu, Droplets, Map} from "lucide-react";
 import "./App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
