@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight, Zap, Battery, Volume2, Calendar, Shield, Radio, Eye } from 'lucide-react';
+import { Menu, X, ChevronRight} from 'lucide-react';
 import icon from "./assets/icon.png"
-import video4 from "../public/videos/Robo.mp4"
+import video4 from "./assets/Robo.mp4"
 import map from "../src/assets/Map.png"
 import { FaApple, FaPlay } from "react-icons/fa";
-import video1 from "../public/videos/1000012165.mp4";
-import video2 from "../public/videos/Mop.mp4";
-import video3 from "../public/videos/1000012284.mp4";
+import video1 from "./assets/1000012165.mp4";
+import video2 from "./assets/Mop.mp4";
+import video3 from "./assets/1000012284.mp4";
 import { Cpu, Droplets, Map } from "lucide-react";
 import "./App.css"
 import AOS from 'aos';
@@ -196,10 +196,8 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
-                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay
-                    loop muted playsInline >
-                    <source src={video4} type="video/mp4" />
-                  </video>
+                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
+                  muted playsInline src={video4}></video>
                 </div>
               </div>
             </div>
