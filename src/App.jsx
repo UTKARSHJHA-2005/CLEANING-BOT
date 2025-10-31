@@ -67,7 +67,7 @@ export default function App() {
               <img src={icon} className="w-10 h-10 text-white" />
             </div>
             <h1 className="text-2xl font-black tracking-wider bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-              KLIIN
+              KLIN
             </h1>
           </div>
           <ul className="hidden md:flex space-x-8 text-sm font-medium">
@@ -259,7 +259,7 @@ export default function App() {
                 <div data-aos="zoom-in-right" className="space-y-8 mt-9">
                   <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
                     <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-                      KLIIN is equipped with
+                      KLIN is equipped with
                     </span>
                     <br />
                     <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
@@ -413,7 +413,7 @@ export default function App() {
                 <img src={icon} className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-black bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                KLIIN
+                KLIN
               </h3>
             </div>
             <p className="text-gray-500 text-sm mb-4">
@@ -447,7 +447,7 @@ export default function App() {
           <div>
             <h4 className="text-white font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-500 text-sm">
-              <li>support@kliin.com</li>
+              <li>support@klin.com</li>
               <li>+91 123-4567</li>
             </ul>
           </div>
