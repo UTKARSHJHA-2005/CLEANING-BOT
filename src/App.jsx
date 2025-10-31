@@ -193,7 +193,7 @@ export default function App() {
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
                   <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
-                  muted playsInline src="https://drive.google.com/uc?export=download&id=1LUwjeaypTXmnODHOGIokC-_t7BDYEnos"></video>
+                  muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
                 </div>
               </div>
             </div>
