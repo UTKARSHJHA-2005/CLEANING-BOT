@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight} from 'lucide-react';
-import icon from "./assets/icon.png"
-import video4 from "./assets/Robo.mp4"
-import map from "../src/assets/Map.png"
+import icon from "../public/assets/icon.png"
+import map from "../public/assets/Map.png"
 import { FaApple, FaPlay } from "react-icons/fa";
-import video1 from "./assets/1000012165.mp4";
-import video2 from "./assets/Mop.mp4";
-import video3 from "./assets/1000012284.mp4";
 import { Cpu, Droplets, Map } from "lucide-react";
 import "./App.css"
 import AOS from 'aos';
@@ -32,7 +28,7 @@ export default function App() {
       desc: "Real-time SLAM mapping with LiDAR precision. Obstacle detection powered by computer vision.",
       stats: "99.9% accuracy",
       color: "from-cyan-500 to-blue-600",
-      video: video1
+      video: "/assets/1000012165.mp4"
     },
     {
       icon: <Droplets className="w-10 h-10" />,
@@ -40,7 +36,7 @@ export default function App() {
       desc: "Adaptive moisture control with electro-osmotic technology. Seamless dry-to-wet transitions.",
       stats: "3-stage cleaning",
       color: "from-blue-500 to-purple-600",
-      video: video2
+      video: "/assets/Mop.mp4"
     },
     {
       icon: <Cpu className="w-10 h-10" />,
@@ -48,7 +44,7 @@ export default function App() {
       desc: "Neural network recognizes different floor types. Auto-adjusts suction power up to 3000Pa.",
       stats: "AI-powered",
       color: "from-purple-500 to-pink-600",
-      video: video3
+      video: "/assets/1000012284.mp4"
     },
   ];
 
@@ -197,7 +193,7 @@ export default function App() {
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
                   <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
-                  muted playsInline src={video4}></video>
+                  muted playsInline src="/assets/Robo.mp4"></video>
                 </div>
               </div>
             </div>
