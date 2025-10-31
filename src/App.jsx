@@ -193,7 +193,7 @@ export default function App() {
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
                   <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
-                  muted playsInline src="/assets/Robo.mp4"></video>
+                  muted playsInline src="https://www.kapwing.com/videos/690460badbb752ff683add62"></video>
                 </div>
               </div>
             </div>
