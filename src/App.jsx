@@ -126,14 +126,14 @@ export default function App() {
             quantum suction technology, and neural learning capabilities.
           </p>
           <div data-aos="zoom-in" className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white overflow-hidden shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/70 transition-all duration-300">
+            <a href="https://drive.google.com/file/d/1OBP4YrAHUgZ0euN_Qlp8XVeCjaa-KK6E/view?usp=sharing" className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white overflow-hidden shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/70 transition-all duration-300">
               <span className="relative z-10 flex items-center gap-2">
                 Technical System
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
-            <a href="https://drive.google.com/file/d/1z8jXGQasEEnKiJLbuVaJKrucvd6D01wY/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/1OJFE2WUuAbDGEUEisNBW0pjXUt64uqVK/view?usp=sharing"
               className="inline-block px-8 py-4 border-2 border-cyan-500/50 rounded-full font-bold text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
               View Specifications
             </a>
