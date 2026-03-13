@@ -199,7 +199,6 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-slate-950 to-transparent"></div>
       </section>
       {/* Features Grid */}
       <section id="features" className="py-32 px-6 bg-slate-950 relative">
