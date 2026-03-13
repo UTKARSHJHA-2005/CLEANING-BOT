@@ -308,28 +308,6 @@ export default function App() {
                       <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-cyan-400/60 rounded-bl-lg"></div>
                       <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-cyan-400/60 rounded-br-lg"></div>
                     </div>
-                    <div
-                      data-aos="zoom-out"
-                      className="mt-4 ml-2 md:absolute md:bottom-28 md:-left-20 bg-slate-900/90 backdrop-blur-xl border border-cyan-500/30 rounded-2xl p-3 md:p-4 shadow-xl shadow-cyan-500/20"
-                    >
-                      <div className="flex items-center gap-3">
-                        <div className="p-3 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl">
-                          {/* icon */}
-                        </div>
-                        <div>
-                          <div className="text-cyan-400 text-xs font-semibold">Real-time Mapping</div>
-                          <div className="text-white text-lg font-black">Active</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div data-aos="zoom-out" className="absolute -top-12 -right-6 bg-slate-900/90 backdrop-blur-xl border border-blue-500/30 rounded-2xl p-4 shadow-xl shadow-blue-500/20">
-                      <div className="text-center">
-                        <div className="text-2xl font-black bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                          96.8%
-                        </div>
-                        <div className="text-gray-400 text-xs font-medium">Accuracy</div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
