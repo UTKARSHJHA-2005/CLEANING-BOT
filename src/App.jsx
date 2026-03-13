@@ -344,66 +344,6 @@ export default function App() {
           </section>
         </div>
       </section>
-      {/* CTA Section */}
-      <section id="order" className="py-32 px-6 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-900 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-slate-950 to-transparent"></div>
-        <div data-aos="fade-up-right" className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-4xl md:text-6xl font-black mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-            Ready to Experience the Future?
-          </h2>
-          <p className="text-gray-400 text-xl mb-10 max-w-2xl mx-auto">
-            Join thousands of satisfied users who have upgraded to intelligent autonomous cleaning.
-          </p>
-          <button onClick={() => setOpen(true)} data-aos="fade-up-left"
-            className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white text-lg shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105 transition-all duration-300">
-            <span className="flex items-center gap-2">
-              Order Now
-              <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </span>
-          </button>
-        </div>
-        {/* Modal */}
-        {open && (
-          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4">
-            <div data-aos="flip-left" className="relative bg-slate-900 border border-cyan-500/30 rounded-2xl shadow-2xl max-w-md w-full p-8">
-              <button onClick={() => setOpen(false)} className="absolute top-3 right-3 text-cyan-400 hover:text-cyan-200 transition">
-                <X className="w-6 h-6" />
-              </button>
-              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Place Your Order
-              </h3>
-              <form className="space-y-5">
-                <div>
-                  <label className="block text-gray-300 text-sm mb-1">Name</label>
-                  <input type="text" placeholder="Enter your name"
-                    className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" required />
-                </div>
-                <div>
-                  <label className="block text-gray-300 text-sm mb-1">Email</label>
-                  <input type="email" placeholder="Enter your email" className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400"
-                    required />
-                </div>
-                <div>
-                  <label className="block text-gray-300 text-sm mb-1">Address</label>
-                  <input type="text" placeholder="Enter your address" className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400"
-                    required />
-                </div>
-                <div>
-                  <label className="block text-gray-300 text-sm mb-1">Description</label>
-                  <textarea placeholder="Describe your order" className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" rows="3"></textarea>
-                </div>
-                <div>
-                  <label className="block text-gray-300 text-sm mb-1">Date</label>
-                  <input type="date" value={today} className="w-full px-4 py-2 rounded-lg bg-slate-800 border border-cyan-500/20 text-white focus:outline-none focus:border-cyan-400" readOnly />
-                </div>
-                <button type="submit" className="w-full mt-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white shadow-lg hover:shadow-cyan-500/50 hover:scale-[1.02] transition-all duration-300">
-                  Submit Order
-                </button>
-              </form>
-            </div>
-          </div>
-        )}
-      </section>
       {/* Footer */}
       <footer id="contact" className="bg-slate-950 border-t border-slate-800 py-16 px-6">
         <div data-aos="zoom-out" className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
