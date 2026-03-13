@@ -71,7 +71,7 @@ export default function App() {
             </h1>
           </div>
           <ul className="hidden md:flex space-x-8 text-sm font-medium">
-            {['Home', 'Technology', 'Features', 'Navigation', 'Order'].map((item) => (
+            {['Home', 'Technology', 'Features', 'Navigation'].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
