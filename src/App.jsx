@@ -249,7 +249,7 @@ export default function App() {
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
             <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div className="max-w-7xl mx-auto relative z-10">
-              <div data-aos="zoom-out" className="flex justify-center">
+              <div data-aos="zoom-out" className="flex justify-center mt-10">
                 <div className="inline-block">
                   <span className="px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
                     System Navigation
