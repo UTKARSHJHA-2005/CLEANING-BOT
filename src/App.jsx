@@ -201,7 +201,7 @@ export default function App() {
         </div>
       </section>
       {/* Features Grid */}
-      <section id="features" className="py-12 px-6 bg-slate-950 relative">
+      <section id="features" className="px-6 bg-slate-950 relative">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div data-aos="flip-down" className="text-center mb-20">
