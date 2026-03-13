@@ -200,48 +200,8 @@ export default function App() {
           </div>
         </div>
       </section>
-      {/* Technology Section */}
-      <section id="technology" className="py-32 px-6 bg-gradient-to-b from-slate-950 to-slate-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(6,182,212,0.1),transparent_50%)]"></div>
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div data-aos="zoom-out" className="text-center mb-20">
-            <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm font-semibold mb-6 backdrop-blur-sm">
-              POWERED BY AI
-            </div>
-            <h2 className="text-4xl md:text-6xl font-black mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Neural Technology
-            </h2>
-            <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-              Revolutionary autonomous cleaning system with advanced AI processing,
-              LIDAR mapping, and quantum-enhanced suction technology.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div data-aos="fade-left" className="space-y-6">
-              {specs.map((spec, i) => (
-                <div key={i} className="flex justify-between items-center p-4 bg-slate-900/50 border border-cyan-500/20 rounded-xl hover:border-cyan-500/40 transition-all duration-300 group">
-                  <span className="text-gray-400 font-medium">{spec.label}</span>
-                  <span className="text-cyan-400 font-bold group-hover:text-cyan-300 transition-colors">
-                    {spec.value}
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
-              <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
-                <div className="aspect-square rounded-2xl overflow-hidden relative">
-                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop
-                    muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-slate-950 to-transparent"></div>
-      </section>
       {/* Features Grid */}
-      <section id="features" className="py-32 px-6 bg-slate-950 relative">
+      <section id="features" className="py-12 px-6 bg-slate-950 relative">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div data-aos="flip-down" className="text-center mb-20">
