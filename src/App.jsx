@@ -132,7 +132,7 @@ export default function App() {
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </button>
+            </a>
             <a href="https://drive.google.com/file/d/1OJFE2WUuAbDGEUEisNBW0pjXUt64uqVK/view?usp=sharing"
               className="inline-block px-8 py-4 border-2 border-cyan-500/50 rounded-full font-bold text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
               View Specifications
