@@ -308,7 +308,7 @@ export default function App() {
                 <div data-aos="zoom-in-left" className="relative flex justify-center lg:justify-end">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl"></div>
                   <div className="relative w-full max-w-xl">
-                    <div className="relative overflow-hidden mb-40 rounded-3xl border-2 border-cyan-500/30 shadow-2xl shadow-cyan-500/20 group">
+                    <div className="relative overflow-hidden rounded-3xl border-2 border-cyan-500/30 shadow-2xl shadow-cyan-500/20 group">
                       <img src={map} alt="Home mapping visualization"
                         className="w-full h-full object-cover rounded-3xl transform group-hover:scale-105 transition-transform duration-700" />
                       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-cyan-400 to-transparent animate-pulse"></div>
