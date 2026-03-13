@@ -243,7 +243,7 @@ export default function App() {
               </div>
             ))}
           </div>
-          <section id="navigation" className="relative py-26 px-6 bg-slate-900 overflow-hidden">
+          <section id="navigation" className="relative py-26 pb-16 px-6 bg-slate-900 overflow-hidden">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
             <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div className="max-w-7xl mx-auto relative z-10">
