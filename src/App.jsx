@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight} from 'lucide-react';
+import { Menu, X, ChevronRight } from 'lucide-react';
 import icon from "../public/assets/icon.png"
 import map from "../public/assets/Map.png"
 import { FaApple, FaPlay } from "react-icons/fa";
@@ -192,64 +192,11 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
-                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
-                  muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
+                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop
+                    muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20">
-          <div data-aos="zoom-out" className="inline-block mb-6">
-            <span className="px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-sm font-semibold tracking-wider backdrop-blur-sm">
-              NEXT-GEN ROBOTICS
-            </span>
-          </div>
-          <h1 data-aos="zoom-in" className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-              Autonomous
-            </span>
-            <br />
-            <span className="text-white">Cleaning Intelligence</span>
-          </h1>
-          <p data-aos="zoom-out" className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Experience the future of home automation with AI-powered precision,
-            quantum suction technology, and neural learning capabilities.
-          </p>
-          <div data-aos="zoom-in" className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="https://drive.google.com/file/d/1OBP4YrAHUgZ0euN_Qlp8XVeCjaa-KK6E/view?usp=sharing" className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-white overflow-hidden shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/70 transition-all duration-300">
-              <span className="relative z-10 flex items-center gap-2">
-                Technical System
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </a>
-            <a href="https://drive.google.com/file/d/1OJFE2WUuAbDGEUEisNBW0pjXUt64uqVK/view?usp=sharing"
-              className="inline-block px-8 py-4 border-2 border-cyan-500/50 rounded-full font-bold text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
-              View Specifications
-            </a>
-          </div>
-          {/* Stats */}
-          <div data-aos="flip-left" className="grid grid-cols-3 gap-8 mt-20 max-w-3xl mx-auto">
-            {[
-              { value: "18-22 CFM", label: "Suction Power" },
-              { value: "60min", label: "Runtime" },
-              { value: "100ml", label: "Water Tank Capacity" },
-            ].map((stat, i) => (
-              <div key={i} className="text-center">
-                <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-2">
-                  {stat.value}
-                </div>
-                <div className="text-gray-500 text-sm font-medium">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-cyan-500/50 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-2 bg-cyan-400 rounded-full"></div>
           </div>
         </div>
       </section>
@@ -284,8 +231,8 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
               <div data-aos="fade-right" className="relative bg-slate-900/80 border border-cyan-500/30 rounded-3xl p-6 backdrop-blur-sm">
                 <div className="aspect-square rounded-2xl overflow-hidden relative">
-                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop 
-                  muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
+                  <video className="absolute inset-0 w-full h-full object-cover scale-110" autoPlay loop
+                    muted playsInline src="https://res.cloudinary.com/dhszvdzft/video/upload/v1761895419/Robo_ihs6rk.mp4"></video>
                 </div>
               </div>
             </div>
@@ -337,7 +284,7 @@ export default function App() {
               </div>
             ))}
           </div>
-          <section id="navigation" className="relative py-26 px-6 bg-slate-950 overflow-hidden">            
+          <section id="navigation" className="relative py-26 px-6 bg-slate-950 overflow-hidden">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
             <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div className="max-w-7xl mx-auto relative z-10">
