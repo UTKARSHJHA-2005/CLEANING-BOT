@@ -201,8 +201,7 @@ export default function App() {
         </div>
       </section>
       {/* Features Grid */}
-      <section id="features" className="px-6 bg-slate-950 relative">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
+      <section id="features" className="px-6 bg-slate-900 relative">
         <div className="max-w-7xl mx-auto relative z-10">
           <div data-aos="flip-down" className="text-center mb-20">
             <div className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm font-semibold mb-6 backdrop-blur-sm">
@@ -215,7 +214,7 @@ export default function App() {
           </div>
           <div data-aos="flip-up" className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, i) => (
-              <div key={i} className="group relative bg-slate-900/70 border border-slate-800 rounded-3xl p-8 overflow-hidden
+              <div key={i} className="group relative bg-slate-900/50 border border-slate-800 rounded-3xl p-8 overflow-hidden
                  hover:border-cyan-400/40 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(6,182,212,0.3)]">
                 <div className={`absolute inset-0 bg-gradient-to-br ${feature.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
                 <div className="relative flex flex-col items-center text-center space-y-4">
@@ -244,7 +243,7 @@ export default function App() {
               </div>
             ))}
           </div>
-          <section id="navigation" className="relative py-26 px-6 bg-slate-950 overflow-hidden">
+          <section id="navigation" className="relative py-26 px-6 bg-slate-900 overflow-hidden">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"></div>
             <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div className="max-w-7xl mx-auto relative z-10">
